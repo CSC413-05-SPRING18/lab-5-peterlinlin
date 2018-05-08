@@ -12,10 +12,6 @@ public class Main {
   static String[] splitArray;
   public static void main(String[] args) {
 
-    String objKey = null;
-
-
-
     try {
       File f = new File("src/lab5/Test.java");
       BufferedReader b = new BufferedReader(new FileReader(f));
